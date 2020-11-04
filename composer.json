@@ -1,0 +1,14 @@
+{
+    "name": "nicolas/ajedrez",
+    "description": "",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Interfaces\\":"interfaces/",
+            "Ajedrez\\":"src/"
+        }
+    }
+}
